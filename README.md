@@ -2,7 +2,7 @@
 The infinite combinations cipher
 
 Features > default enigma:
- - Every rotor has a length of 255, so you can encrypt any character / file / etc.
+ - Supports every character (0-255)
  - Unlimited rotors.
  - Rotor values have no particular order.
  - 1 in 255 chance hat a character will become itself.
