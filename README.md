@@ -5,7 +5,7 @@ Features > default enigma:
  - Supports every character (0-255)
  - Unlimited rotors.
  - Rotor values have no particular order.
- - 1 in 255 chance hat a character will become itself.
+ - 1 in 255 chance that a character will become itself.
  
 How it works:
 1. Encryption: Input 'a' -> 'a' in decimal is 65 -> get the value of the index 65 of 1st rotor -> get the value of the index of the value of the first rotor -> ... all untill you reach the last rotor and the last value will be the output character. After one char gave the output, first rotor rotates to the right and second rotor rotates to the left, when they do a full rotation 3th rotor rotates.. and so on..
